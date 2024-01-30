@@ -1,0 +1,41 @@
+project:
+  type: book
+
+book:
+  title: "Quarto_Book_Test"
+  author: "Norah Jones"
+  date: "29.1.2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  appendices:
+    - appendix1.qmd
+    - appendix2.qmd
+
+bibliography: references.bib
+
+format:
+  pdf:
+    documentclass: scrbook
+    toc: true
+    toc-depth: 3
+    lof: true
+    lot: true
+    keep-tex: true
+    number-sections: true
+    include-in-header:
+      - "header_footer.tex"
+    template-partials:
+      - "template/doc-class.tex"
+fontsize: 11pt
+linestretch: 1.5
+geometry: left = 25mm, right = 25mm, top = 30mm, bottom = 30mm
+execute: 
+  echo: false
+  warning: false
+  message: false
+editor: visual
+  
+  

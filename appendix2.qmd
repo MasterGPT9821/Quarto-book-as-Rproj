@@ -1,0 +1,26 @@
+# Anhang 2 {.appendix}
+
+```{=tex}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\thechapter.\arabic{page}} % Seitenzahlformat ändern
+```
+
+| Col1 | Col2 | Col3 | Col4 |
+|------|------|------|------|
+| A    | B    | C    | D    |
+| E    | F    | G    | H    |
+| I    | J    | K    | L    |
+| M    | N    | O    | P    |
+| Q    | R    | S    | T    |
+| U    | V    | W    | X    |
+| Y    | Z    | \-   | \-   |
+
+: 2nd Appendix table {#tbl-letters2-full}
+
+{{< pagebreak >}}
+
+test
+
+{{< pagebreak >}}
+
+test
